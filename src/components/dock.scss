@@ -4,11 +4,11 @@
     bottom: 1rem;
     left: 50%;
     transform: translateX(-50%);
-    padding-inline: 1rem;
+    padding-inline: 1.35rem;
     padding-block:0.45rem;
     border-radius: 0.45rem;
-    backdrop-filter: blur(20px);
-    gap: 5px;
+    backdrop-filter: blur(5px);
+    gap: 8px;
     
     .icon{
         padding: 0.25rem;
@@ -17,10 +17,10 @@
         justify-content: center;
         align-items: center;
         aspect-ratio: 1/1;
-        width: 2rem;
-        transition: all 0.5s ease;
+        width: 3rem;
+        transition: all 0.3s ease;
     }
-    background-color: rgb(63, 63, 63);
+    background-color: #7777771b;
     .github,.cli{
         background-color: black;
         color:white;
