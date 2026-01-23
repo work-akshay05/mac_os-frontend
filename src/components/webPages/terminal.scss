@@ -1,0 +1,64 @@
+.terminal{
+    background-color: black;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    width:100%;
+    border-radius: 0.85rem;
+    cursor: default;  
+    
+    .top{
+        display: flex;
+        padding-block: 0.75rem;
+        padding-inline:0.5rem;
+        border-bottom: 0.05rem rgba(128, 128, 128, 0.297) solid;
+        gap:0.5rem;
+    }
+    
+}
+.windowCntlIcon{
+    height:0.65rem;
+    width: 0.65rem;
+    // background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;   
+    cursor: pointer;
+    svg, i {
+        font-size: 0.45rem; 
+        transition: color 0.2s ease;
+    }
+    
+
+    &:hover svg,
+    &:hover i {
+        color: black;
+    }
+    
+}
+.cross{
+    color:rgba(255, 68, 0, 0.644);
+    background-color: rgba(255, 68, 0, 0.644);
+    svg,i{
+        color:rgba(228, 61, 1, 0.719);
+    }
+}
+.minimize{
+    color:rgba(255, 238, 0, 0.644);
+    background-color: rgba(255, 238, 0, 0.644);
+    svg,i{
+        color:rgba(255, 238, 0, 0.644);
+    }
+}
+.restore{
+    color:rgba(145, 255, 0, 0.644);
+    background-color: rgba(145, 255, 0, 0.644);
+    svg,i{
+        color:rgba(145, 255, 0, 0.644);
+    }
+}
+
+

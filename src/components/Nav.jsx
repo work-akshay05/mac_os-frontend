@@ -6,7 +6,7 @@ const Nav=()=>{
         <nav className="navBar">
             <div className="left">
                 <div className="appleIcon">
-                    <p><i class="ri-apple-line"></i></p>
+                    <p><i className="ri-apple-line"></i></p>
                 </div>
                 <div className="navItem">
                     <p>Akshay Kumar</p>
@@ -23,7 +23,7 @@ const Nav=()=>{
             </div>
             <div className="right">
                 <div className="wifi">
-                    <i class="ri-wifi-line"></i>
+                    <i className="ri-wifi-line"></i>
                 </div>
                 <div className="dateTime">
                     <DateTime/>
