@@ -1,0 +1,27 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    .title{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 0.5rem;
+        .repo_name{
+            
+        }
+        .public{
+            background-color: black;
+            color: rgb(192, 183, 183);
+            font-size: small;
+            border: 1px solid rgb(193, 180, 180);
+            padding-block: 0.1rem;
+            padding-inline: 0.3rem;
+            border-radius: 0.7rem;
+        }
+        
+    }
+}
+.profile{
+    display: flex;
+}

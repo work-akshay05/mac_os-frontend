@@ -8,10 +8,10 @@ const Terminal = ({children}) => {
     return (
         <Rnd 
         default={{
-                width: 400,
-                height: 320,
-                x: 300,
-                y: 200
+                width: 800,
+                height: 600,
+                x: 20,
+                y: 20
             }}
         >
             <div className="terminal">
@@ -19,6 +19,7 @@ const Terminal = ({children}) => {
                     <div className="windowCntlIcon cross"><i class="ri-close-fill"></i></div>
                     <div className="windowCntlIcon minimize"><MdMinimize /></div>
                     <div className="windowCntlIcon restore"><FaRegWindowRestore /></div>
+                    <div className="file-local">./Terminal.zsh</div>
                 </div>
                 <div className="bottom">
                     {children}
