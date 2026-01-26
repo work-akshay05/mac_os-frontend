@@ -1,14 +1,45 @@
+.repo_commit{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap:2rem;
+    overflow: hidden;
+    .commits{
+        flex-shrink: 0;
+        width: 100%;
+        margin-left:1rem;
+    }
+}
+.repos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    overflow:auto;
+    height: 100%;
+    width: 100%;
+}
 .box{
+    height: auto;
+    width: 20rem;
     display: flex;
     flex-direction: column;
     background-color: black;
+    border: 0.02rem solid rgba(176, 176, 176, 0.374);
+    border-radius: 0.5rem;
+    padding-inline:0.75rem;
+    padding-block: 0.5rem;
+    gap:0.5rem;
     .title{
         display: flex;
         justify-content: start;
         align-items: center;
         gap: 0.5rem;
         .repo_name{
-            
+            text-decoration: none;
+            color:rgb(31, 136, 255);
         }
         .public{
             background-color: black;
@@ -24,4 +55,44 @@
 }
 .profile{
     display: flex;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    .avatar{
+        mi
+        .name{
+            color:rgb(244, 241, 241)smoke;
+        }
+        .userName{
+            color:rgb(129, 128, 128);
+            font-weight: 500;
+        }
+    }
+    .avatar img{
+        width: 100%;
+        border-radius: 50%;
+        border:0.1rem solid rgba(176, 176, 176, 0.374);
+    }
+    overflow: auto;
+    height: 100%;
+}
+.commit_table{
+    // width: 90%;
+    max-width: 40rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+.followersCnt{
+    display: flex;
+    gap: 0.2rem;
+    margin-top: 0.5rem;
+    .icon{
+        color:rgb(138, 131, 131)
+    }
+    .span{
+        color:rgb(185, 166, 166);
+    }
+}
+.hr{
+    border: 0.01rem solid rgba(176, 176, 176, 0.374);
+    margin-top: 0.5rem;
 }

@@ -8,7 +8,7 @@ const Terminal = ({children}) => {
     return (
         <Rnd 
         default={{
-                width: 800,
+                width: 1000,
                 height: 600,
                 x: 20,
                 y: 20
