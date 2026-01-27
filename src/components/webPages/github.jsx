@@ -39,14 +39,14 @@ const Github=()=>{
     },[userInfo])
     
     return(
-        <Terminal>
+        <Terminal height={600} width={1000}>
             <div className="profile">
                 <div className="avatar">
                     <img src={userInfo?.avatar_url} alt="GitHub Avatar"/>
                     <h2 className="name">{userInfo?.name}</h2>
                     <h3 className="userName">{userInfo?.login}</h3>
                     <div className="followersCnt">
-                        <i class="ri-group-fill icon"></i>
+                        <i className="ri-group-fill icon"></i>
                         <span className="followers">{userInfo?.followers} followers</span> ·
                         <span className="following">{userInfo?.following} following</span>
                     </div>
@@ -54,15 +54,15 @@ const Github=()=>{
                 </div>
                 <div className="repo_commit">
                     <div className="repos">
-                    {card()}
-                    {card()}
-                    {card()}
-                    {card()}
-                </div>
-                <div className="commits">
-                    <h3>Commits in the last year</h3>
-                    <img className="commit_table" src={commitImg} alt="GitHub Commit Chart"/>
-                </div>
+                        {card()}
+                        {card()}
+                        {card()}
+                        {card()}
+                    </div>
+                    <div className="commits">
+                        <h3>Commits in the last year</h3>
+                        <img className="commit_table" src={commitImg} alt="GitHub Commit Chart"/>
+                    </div>
                 </div>
                 
             </div>
